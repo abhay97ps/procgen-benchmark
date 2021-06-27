@@ -7,3 +7,14 @@ Procgen consists of 16 unique environments with procedural generation logic gove
 
 ### Approach
 
+A trainable attention module for CNN architectures often utilized for image classifcation is used to improve performance over baseline IMPALA models of similar depths. A2C-PPO implementation from [ikostrikov](https://github.com/ikostrikov/pytorch-a2c-ppo-acktr-gail) is used to primary base to build on. 
+
+### Train
+For attention network:
+'''
+python train.py --exp_name attention_25m --env_name chaser --start_level 0 --num_levels 200 --param_name easy-custom --device gpu --log_level 30 --num_timesteps 25000000
+'''
+
+
+
+
