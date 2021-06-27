@@ -15,6 +15,11 @@ For attention network:
 python train.py --exp_name attention_25m --env_name chaser --start_level 0 --num_levels 200 --param_name easy-custom --device gpu --log_level 30 --num_timesteps 25000000
 '''
 
-
-
+### References
+1. Cobbe, Karl, et al. "Leveraging procedural generation to benchmark reinforcement learning." International
+conference on machine learning. PMLR, 2020.
+2. Jetley, Saumya, et al. "Learn to pay attention." arXiv preprint arXiv:1804.02391 (2018).
+3. https://github.com/joonleesky/train-procgen-pytorch
+4. https://github.com/openai/procgen
+5. https://github.com/SaoYan/LearnToPayAttention
 
